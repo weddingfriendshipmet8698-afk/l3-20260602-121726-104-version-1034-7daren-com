@@ -1,16 +1,10 @@
-﻿# website-upload-20260602-121726-104
+# 高清剧集大全 静态电影网站
 
-Batch 104 of 38. Contains extracted static website versions. The original zip files are not committed.
+- 解析影片数量：2000
+- 独立详情页数量：2000
+- 独立分类页数量：10
+- 播放源：从上传 JS 中提取 20 条 m3u8 地址，并循环绑定到详情页播放器。
+- 封面路径：按影片顺序循环引用顶级目录 1.jpg 到 150.jpg。
+- 首页、分类页、榜单页、搜索页、详情页均已插入百度统计代码。
 
-| Directory | Source zip |
-| --- | --- |
-| version-1031 | project-bolt-sb1-ckrrdfmr-chatgpt (1) (moved 2).zip |
-| version-1032 | project-bolt-sb1-ckrrdfmr-chatgpt (1).zip |
-| version-1033 | project-bolt-sb1-ckvczixk - 副本-chatgpt (1) (moved 1).zip |
-| version-1034 | project-bolt-sb1-ckvczixk - 副本-chatgpt (1) (moved 2).zip |
-| version-1035 | project-bolt-sb1-ckvczixk - 副本-chatgpt (1).zip |
-| version-1036 | project-bolt-sb1-ckvczixk-chatgpt (1) (moved 1).zip |
-| version-1037 | project-bolt-sb1-ckvczixk-chatgpt (1).zip |
-| version-1038 | project-bolt-sb1-cnjjnbff - 副本-chatgpt (1).zip |
-| version-1039 | project-bolt-sb1-cnjjnbff-chatgpt (1) (moved 1).zip |
-| version-1040 | project-bolt-sb1-cnjjnbff-chatgpt (1).zip |
+把 1.jpg 到 150.jpg 放到网站根目录后，封面和 Hero 图会自动显示。
